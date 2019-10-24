@@ -21,7 +21,7 @@ public class HelloServlet extends HttpServlet {
 		request.setCharacterEncoding("utf-8");
 		response.setCharacterEncoding("utf-8");
 		PrintWriter out = response.getWriter();
-		out.println("你好helloservlet()12345678");
+		out.println("你好helloservlet()123456789");
 		out.close();
 		System.out.println("servlet service()");
 	}
